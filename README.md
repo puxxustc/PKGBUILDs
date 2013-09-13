@@ -39,7 +39,7 @@ Arch Linux打包
 
 ### [ttygif](https://github.com/icholy/ttygif) ###
 
-一个用于将ttyrec的记录文件转换为GIF的小工具，已上传到[AUR](https://aur.archlinux.org/)，软件包名[sdlpal](https://aur.archlinux.org/packages/sdlpal/)。
+一个用于将ttyrec的记录文件转换为GIF的小工具，已上传到[AUR](https://aur.archlinux.org/)，软件包名[ttygif](https://aur.archlinux.org/packages/ttygif/)。
 
 ------
 
