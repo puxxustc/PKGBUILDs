@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Notepad++
+Exec=wine-npp
+Comment=Notepad++,a free source code editor
+Comment[zh_CN]=Notepad++，一款免费的源代码编辑器
+Icon=/usr/share/wine-npp/wine-npp.ico
+Type=Application
+Terminal=false
+StartupNotify=true
+Categories=Development;

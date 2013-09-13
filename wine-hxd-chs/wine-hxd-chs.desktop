@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=HxD
+Name[zh_CN]=HxD
+Exec=wine-hxd-chs
+Comment=HxD, an awsome hex editor
+Comment[zh_CN]=HxD-十六进制编辑器
+Icon=/usr/share/wine-hxd-chs/hxd.png
+Type=Application
+Terminal=false
+StartupNotify=true
+Categories=Development;

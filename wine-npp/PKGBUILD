@@ -1,0 +1,29 @@
+# Maintainer: Shaw <puxx@mail.ustc.edu.cn>
+
+pkgname=wine-npp
+pkgver=6.4.5
+pkgrel=1
+pkgdesc="Wine version of Notepad++,a free source code editor"
+arch=(any)
+url="http://notepad-plus-plus.org/"
+license=('GPL')
+depends=('wine')
+makedepends=('unzip')
+source=(http://download.tuxfamily.org/notepadplus/$pkgver/npp.$pkgver.bin.zip
+        $pkgname.sh
+        $pkgname.desktop
+        $pkgname.ico)
+noextract=(npp.$pkgver.bin.zip)
+md5sums=('5b1b45d4bf698ceebfed089964b72728'
+         'SKIP'
+         'SKIP'
+         'SKIP')
+
+package() {
+	mkdir -p $pkgdir/usr/share/$pkgname
+	unzip npp.$pkgver.bin.zip -d $pkgdir/usr/share/$pkgname
+	install -Dm755 $srcdir/$pkgname.sh $pkgdir/usr/bin/$pkgname
+	install -Dm644 $srcdir/$pkgname.desktop $pkgdir/usr/share/applications/$pkgname.desktop
+	install -Dm644 $srcdir/$pkgname.ico $pkgdir/usr/share/$pkgname/$pkgname.ico
+}
+

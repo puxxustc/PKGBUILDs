@@ -1,0 +1,29 @@
+# Maintainer: Shaw <puxx@mail.ustc.edu.cn>
+
+pkgname=wine-hxd-chs
+pkgver=1.7.7.0
+pkgrel=1
+pkgdesc="Wine version of HxD, an awsome hex editor(Chinese Simplified)"
+arch=(any)
+url="http://www.mh-nexus.de/en/hxd/"
+license=('custom')
+depends=('wine')
+source=(http://mh-nexus.de/downloads/HxDchs.zip
+        $pkgname.sh
+        $pkgname.desktop
+        hxd.png)
+md5sums=('f70b1a007414ae3a89d168b993d218d2'
+         '0ce5a93f606040a25c1fe3bd944aeecd'
+         '2146886a1cefdc4f34f41cb604695e76'
+         '9881081747dbfdbf2548ab541695d82b')
+
+package() {
+	install -Dm755 $srcdir/$pkgname.sh $pkgdir/usr/bin/$pkgname
+	install -Dm644 $srcdir/HxD.exe $pkgdir/usr/share/$pkgname/HxD.exe
+	install -Dm644 $srcdir/readme.txt $pkgdir/usr/share/doc/$pkgname/readme.txt
+	install -Dm644 $srcdir/changelog.txt $pkgdir/usr/share/doc/$pkgname/changelog.txt
+	install -Dm644 $srcdir/license.txt $pkgdir/usr/share/licenses/$pkgname/license.txt
+	install -Dm644 $srcdir/hxd.png $pkgdir/usr/share/$pkgname/hxd.png
+	install -Dm644 $srcdir/$pkgname.desktop $pkgdir/usr/share/applications/$pkgname.desktop
+}
+

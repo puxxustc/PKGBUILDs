@@ -1,0 +1,26 @@
+# Maintainer: Shaw <puxx@mail.ustc.edu.cn>
+
+pkgname=bochs-dbg
+pkgver=2.6.2
+pkgrel=1
+pkgdesc="A portable x86 PC emulation software package with builtin debugger"
+arch=('i686' 'x86_64')
+url="http://bochs.sourceforge.net/"
+license=('LGPL')
+depends=('gcc-libs' 'gtk2' 'libxrandr')
+conflicts=('bochs')
+source=("http://downloads.sourceforge.net/sourceforge/bochs/bochs-$pkgver.tar.gz")
+md5sums=('82ecaff9826d4f29fa46f3062e2957b8')
+
+build() {
+	cd "${srcdir}/bochs-${pkgver}"
+	export LIBS=-lpthread
+	./configure --prefix=/usr --enable-debugger --enable-disasm
+	make
+}
+
+package() {
+	cd "$srcdir/bochs-$pkgver"
+	make DESTDIR="$pkgdir" install
+	install -D -m 644 .bochsrc "$pkgdir/etc/bochsrc-sample.txt"
+}

@@ -1,0 +1,9 @@
+*/pkg/
+*/src/
+*/*.tar.gz
+*/*.tar.xz
+*/*.tar.bz2
+*/*.zip
+*/*.deb
+
+create_ap/create_ap
