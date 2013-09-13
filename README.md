@@ -23,7 +23,7 @@ Arch Linux打包
 
 用于创建软AP(Software Access Point)的Shell脚本。
 
-**AUR：**[create_ap](https://aur.archlinux.org/packages/create_ap/)。
+**AUR：** [create_ap](https://aur.archlinux.org/packages/create_ap/)。
 
 ------
 
@@ -31,7 +31,7 @@ Arch Linux打包
 
 使用Qt5编写的DoubanFM客户端。该软件包由[shadowma](https://aur.archlinux.org/account/shadowma)创建，现由我接管。
 
-**AUR:**[qdoubanfm-git](https://aur.archlinux.org/packages/qdoubanfm-git/)
+**AUR:** [qdoubanfm-git](https://aur.archlinux.org/packages/qdoubanfm-git/)
 
 ------
 
@@ -45,7 +45,7 @@ Arch Linux打包
 
 基于SDL重写的仙剑奇侠传一。
 
-**AUR:**[sdlpal](https://aur.archlinux.org/packages/sdlpal/)。
+**AUR:** [sdlpal](https://aur.archlinux.org/packages/sdlpal/)。
 
 ------
 
@@ -53,7 +53,7 @@ Arch Linux打包
 
 一个用于将ttyrec的记录文件转换为GIF的小工具。
 
-**AUR:**[ttygif](https://aur.archlinux.org/packages/ttygif/)。
+**AUR:** [ttygif](https://aur.archlinux.org/packages/ttygif/)。
 
 ------
 
