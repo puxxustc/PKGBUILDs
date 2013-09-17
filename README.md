@@ -57,6 +57,10 @@ Arch Linux软件包生成脚本
 
 ------
 
+### [ttyrec](http://0xcc.net/ttyrec/index.html.en) ###
+
+一个录制、播放终端的小工具，将终端的的操作、显示结果保存成记录文件并可重复播放。
+
 ### [wine-hxd-chs](http://www.mh-nexus.de/en/hxd/) ###
 
 基于[Wine](http://zh.wikipedia.org/wiki/Wine)的HxD十六进制编辑器。
