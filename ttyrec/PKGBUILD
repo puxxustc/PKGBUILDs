@@ -1,4 +1,5 @@
 # Maintainer: Shaw <puxx@mail.ustc.edu.cn>
+# Contributor: Daichi Shinozaki <dsdseg@gmail.com>
 
 pkgname=ttyrec
 pkgver=1.0.8
@@ -13,7 +14,7 @@ md5sums=('ee74158c6c55ae16327595c70369ef83')
 
 build() {
 	cd $srcdir/$pkgname-$pkgver
-	make CFLAGS="-DSVR4 -DHAVE_inotify -O2" 
+	make CFLAGS+="-DSVR4 -DHAVE_inotify -D_XOPEN_SOURCE=500"
 }
 
 package() {
@@ -29,5 +30,4 @@ package() {
 	install -Dm644 ttyplay.1 $pkgdir/usr/share/man/man1/ttyplay.1
 	install -Dm644 ttytime.1 $pkgdir/usr/share/man/man1/ttytime.1
 }
-
 
