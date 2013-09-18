@@ -27,9 +27,17 @@ Arch Linux软件包生成脚本
 
 ------
 
+### [ipbt](http://www.chiark.greenend.org.uk/~sgtatham/ipbt/)
+
+一个高级的ttyrec播放器，支持暂停回放。
+
+**AUR：** [ipbt](https://aur.archlinux.org/packages/ipbt/)
+
+------
+
 ### [qdoubanfm-git](https://gitcafe.com/zonyitoo/doubanfm-qt) ###
 
-使用Qt5编写的DoubanFM客户端。该软件包由[shadowma](https://aur.archlinux.org/account/shadowma)创建，现由我接管。
+使用Qt5编写的DoubanFM客户端。
 
 **AUR:** [qdoubanfm-git](https://aur.archlinux.org/packages/qdoubanfm-git/)
 
