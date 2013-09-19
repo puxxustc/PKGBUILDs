@@ -35,6 +35,15 @@ Arch Linux软件包生成脚本
 
 ------
 
+### [ogg2mp3](http://gitorious.org/ogg2mp3/pages/Home/)
+
+一个可以将ogg转换为mp3的Perl脚本
+
+**AUR：** [ogg2mp3](https://aur.archlinux.org/packages/ogg2mp3/)
+
+------
+
+
 ### [qdoubanfm-git](https://gitcafe.com/zonyitoo/doubanfm-qt) ###
 
 使用Qt5编写的DoubanFM客户端。
