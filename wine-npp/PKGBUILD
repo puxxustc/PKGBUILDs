@@ -15,9 +15,9 @@ source=(http://download.tuxfamily.org/notepadplus/$pkgver/npp.$pkgver.bin.zip
         $pkgname.ico)
 noextract=(npp.$pkgver.bin.zip)
 md5sums=('5b1b45d4bf698ceebfed089964b72728'
-         'SKIP'
-         'SKIP'
-         'SKIP')
+         'def0f0394b52fa1c303c3efce58e4c7b'
+         'ae6e9709d54aae8caaf747ff4d2d6e1a'
+         'e6fda7e8b433fd915c2fda2f5a627ebc')
 
 package() {
 	mkdir -p $pkgdir/usr/share/$pkgname
