@@ -1,4 +1,4 @@
-# Maintainer: Shaw <puxx@mail.ustc.edu.cn>
+# Maintainer:  Shaw <puxx@mail.ustc.edu.cn>
 
 pkgname=wine-hxd-chs
 pkgver=1.7.7.0
@@ -13,7 +13,7 @@ source=(http://mh-nexus.de/downloads/HxDchs.zip
         $pkgname.desktop
         hxd.png)
 md5sums=('f70b1a007414ae3a89d168b993d218d2'
-         '0ce5a93f606040a25c1fe3bd944aeecd'
+         '679a6284acf8a94cbb0d244ce494e222'
          '2146886a1cefdc4f34f41cb604695e76'
          '9881081747dbfdbf2548ab541695d82b')
 
