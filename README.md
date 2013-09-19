@@ -49,6 +49,12 @@ Arch Linux软件包生成脚本
 
 ------
 
+### [retext-git](http://retext.sourceforge.net/) ###
+
+Git version
+
+------
+
 ### [sdlpal](http://sdlpal.codeplex.com/) ###
 
 基于SDL重写的仙剑奇侠传一。
@@ -75,7 +81,7 @@ Arch Linux软件包生成脚本
 
 ### [ttyrec-git](http://git.kitenet.net/?p=ttyrec.git) ###
 
-一个录制、播放终端的小工具，将终端的操作、显示结果保存成记录文件并可重复播放。(Git version)
+Git version
 
 **AUR:** [ttyrec-git](https://aur.archlinux.org/packages/ttyrec-git/)
 
