@@ -29,7 +29,7 @@ source=("http://downloads.sourceforge.net/project/${pkgname}/ReText-4.1/ReText-$
         "x-retext-rst.xml")
 install="$pkgname".install
 md5sums=('191ace4a7b20398f5b6075e3c146123d'
-         'e5a20a74c3fb960e7ee6c16b9b364b3f'
+         'ac6cb2a020238fe03f0f52610c976cdd'
          '48becfce7b920c7a2b875626386d1e74'
          '8c32c71bc2b2f49e15595a1808780d42')
 
