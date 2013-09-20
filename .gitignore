@@ -1,11 +1,9 @@
-*/pkg/
-*/src/
 */*.tar.gz
 */*.tar.xz
 */*.tar.bz2
 */*.zip
 */*.deb
+*/*/
 
 create_ap/create_ap
-retext-git/retext-git
-ogg2mp3/ogg2mp3
+
