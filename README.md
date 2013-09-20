@@ -62,6 +62,8 @@ Arch Linux软件包生成脚本
 
 Git version
 
+**AUR:** [retext-git](https://aur.archlinux.org/packages/retext-git/)
+
 ------
 
 ### [sdlpal](http://sdlpal.codeplex.com/) ###
@@ -90,7 +92,7 @@ Git version
 
 ### [ttyrec-git](http://git.kitenet.net/?p=ttyrec.git) ###
 
-Git version
+Git version(not official repository)
 
 **AUR:** [ttyrec-git](https://aur.archlinux.org/packages/ttyrec-git/)
 
