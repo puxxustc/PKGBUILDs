@@ -13,7 +13,7 @@ depends=('python-pyqt5'
          'xdg-utils'
          'desktop-file-utils'
          'gconf')
-makedepends=('imagemagick' 'git')
+makedepends=('imagemagick' 'git' 'qt5-tools')
 optdepends=('python-markdown: for Markdown language support'
             'python-docutils: for reStructuredText language support'
             'python-pyenchant: for spell checking support')
@@ -31,13 +31,7 @@ md5sums=('SKIP'
 
 build () {
 	cd $srcdir/$pkgname/locale
-	if [ -x /usr/bin/lrelease-qt5 ] ; then
-		lrelease-qt5 *.ts ;
-	elif [ -x /usr/bin/lrelease ] ; then
-		lrelease *.ts ;
-	else
-		false ;
-	fi
+	lrelease-qt5 *.ts
 }
 
 package () {
