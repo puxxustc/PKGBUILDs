@@ -1,8 +1,8 @@
-# Maintainer: Shaw <puxx@mail.ustc.edu.cn>
+# Maintainer:  Shaw <puxx@mail.ustc.edu.cn>
 # Contributor: Shadow Ma ( i at shadow.ma )
 
 pkgname=qdoubanfm-git
-pkgver=20130915
+pkgver=20130923
 pkgrel=1
 pkgdesc="A DoubanFM Client based on Qt5"
 arch=('i686' 'x86_64')
