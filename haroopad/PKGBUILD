@@ -16,6 +16,7 @@ depends=('xdg-utils'
          'gtk2'
          'nss'
          'libudev.so.0')
+options=('!strip')
 install=$pkgname.install
 changelog=changelog
 
