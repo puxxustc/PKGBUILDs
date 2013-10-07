@@ -50,17 +50,12 @@ Arch Linux软件包生成脚本
 
 **AUR:** [qdoubanfm-git](https://aur.archlinux.org/packages/qdoubanfm-git/)
 
-------
-
-### [retext](http://retext.sourceforge.net/) ###
-
-[AUR](https://aur.archlinux.org/)里的retext一直没有更新，所以就自己修改PKGBUILD升级到4.1.0。
 
 ------
 
 ### [retext-git](http://retext.sourceforge.net/) ###
 
-Git version
+Markdown编辑器(Git version)
 
 **AUR:** [retext-git](https://aur.archlinux.org/packages/retext-git/)
 
