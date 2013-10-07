@@ -19,7 +19,7 @@ Arch Linux软件包生成脚本
 
 ------
 
-### [create_ap](https://github.com/oblique/configs/blob/master/bin/create_ap) ###
+### [create_ap](https://github.com/oblique/create_ap) ###
 
 用于创建软AP(Software Access Point)的Shell脚本。
 
