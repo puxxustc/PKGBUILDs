@@ -91,15 +91,18 @@ Git version(not official repository)
 
 **AUR:** [ttyrec-git](https://aur.archlinux.org/packages/ttyrec-git/)
 
+
+------
+
+### [ustc-wlt](https://gitcafe.com/puxx/ustc-wlt) ###
+
+USTC网络通脚本
+
 ------
 
 ### [wine-hxd-chs](http://www.mh-nexus.de/en/hxd/) ###
 
 基于[Wine](http://zh.wikipedia.org/wiki/Wine)的HxD十六进制编辑器。
 
-------
 
-### [wine-npp](http://notepad-plus-plus.org/) ###
-
-基于[Wine](http://zh.wikipedia.org/wiki/Wine)的Notepad++文本编辑器。
 

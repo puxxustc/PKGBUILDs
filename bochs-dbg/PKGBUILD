@@ -1,4 +1,4 @@
-# Maintainer: Shaw <puxx@mail.ustc.edu.cn>
+# Maintainer:  Shaw <puxx@mail.ustc.edu.cn>
 
 pkgname=bochs-dbg
 pkgver=2.6.2
@@ -8,8 +8,9 @@ arch=('i686' 'x86_64')
 url="http://bochs.sourceforge.net/"
 license=('LGPL')
 depends=('gtk2' 'libxpm')
+provides=('bochs')
 conflicts=('bochs')
-source=("http://downloads.sourceforge.net/sourceforge/bochs/bochs-$pkgver.tar.gz")
+source=("http://downloads.sourceforge.net/sourceforge/bochs/bochs-${pkgver}.tar.gz")
 md5sums=('82ecaff9826d4f29fa46f3062e2957b8')
 
 build() {
@@ -20,7 +21,7 @@ build() {
 }
 
 package() {
-	cd "$srcdir/bochs-$pkgver"
-	make DESTDIR="$pkgdir" install
-	install -D -m 644 .bochsrc "$pkgdir/etc/bochsrc-sample.txt"
+	cd "${srcdir}/bochs-$pkgver"
+	make DESTDIR="${pkgdir}" install
+	install -D -m 644 .bochsrc "${pkgdir}/etc/bochsrc-sample.txt"
 }

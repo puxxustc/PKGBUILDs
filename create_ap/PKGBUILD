@@ -1,4 +1,4 @@
-# Maintainer: Shaw <puxx@mail.ustc.edu.cn>
+# Maintainer:  Shaw <puxx@mail.ustc.edu.cn>
 
 pkgname=create_ap
 pkgver=git~20130928
@@ -14,6 +14,6 @@ source=(https://raw.github.com/oblique/create_ap/master/create_ap)
 md5sums=('SKIP')
 
 package() {
-	install -Dm755 $srcdir/create_ap $pkgdir/usr/bin/create_ap
+	install -Dm755 "${srcdir}/create_ap" "${pkgdir}/usr/bin/create_ap"
 }
 

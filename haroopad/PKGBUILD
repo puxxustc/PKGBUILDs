@@ -17,7 +17,7 @@ depends=('xdg-utils'
          'nss'
          'libudev.so.0')
 options=('!strip')
-install=$pkgname.install
+install=${pkgname}.install
 changelog=changelog
 
 if [[ ${CARCH} = i686 ]]; then
@@ -37,15 +37,15 @@ else
 fi
 
 build() {
-	cd "$srcdir"
+	cd "${srcdir}"
 	tar -zxf data.tar.gz
 }
 
 package() {
-	cd "$srcdir"
-	cp -r "$srcdir/usr" "$pkgdir/usr"
-	rm "$pkgdir/usr/share/applications/mimeapps.list"
-	rm "$pkgdir/usr/share/applications/Haroopad.desktop"
-	install -Dm644 Haroopad.desktop "$pkgdir/usr/share/applications/Haroopad.desktop"
+	cd "${srcdir}"
+	cp -r "${srcdir}/usr" "${pkgdir}/usr"
+	rm "${pkgdir}/usr/share/applications/mimeapps.list"
+	rm "${pkgdir}/usr/share/applications/Haroopad.desktop"
+	install -Dm644 Haroopad.desktop "${pkgdir}/usr/share/applications/Haroopad.desktop"
 }
 
