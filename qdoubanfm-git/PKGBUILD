@@ -3,12 +3,12 @@
 
 pkgname=qdoubanfm-git
 pkgver=20130923
-pkgrel=1
+pkgrel=2
 pkgdesc="A DoubanFM Client based on Qt5"
 arch=('i686' 'x86_64')
 url="https://gitcafe.com/zonyitoo/doubanfm-qt"
 license=('MIT')
-depends=('qt5-multimedia')
+depends=('qt5-multimedia' 'gstreamer0.10-good-plugins')
 makedepends=('git')
 source=("git+https://gitcafe.com/zonyitoo/doubanfm-qt.git")
 md5sums=('SKIP')
