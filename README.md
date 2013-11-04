@@ -104,5 +104,13 @@ USTC网络通脚本
 
 基于[Wine](http://zh.wikipedia.org/wiki/Wine)的HxD十六进制编辑器。
 
+------
 
+### [xcursor-oxy-neon](http://gnome-look.org/content/show.php/Oxygen+Neon?content=137109) ###
+
+X11鼠标主题：Oxygen Neon
+
+![preview](http://gnome-look.org/CONTENT/content-pre1/137109-1.png)
+
+**AUR:** [xcursor-oxy-neon](https://aur.archlinux.org/packages/xcursor-oxy-neon/)
 
