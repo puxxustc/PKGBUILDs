@@ -61,11 +61,11 @@ Markdown编辑器(Git version)
 
 ------
 
-### [sdlpal](http://sdlpal.codeplex.com/) ###
+### [sdlpal-git](http://sdlpal.codeplex.com/) ###
 
 基于SDL重写的仙剑奇侠传一。
 
-**AUR:** [sdlpal](https://aur.archlinux.org/packages/sdlpal/)
+**AUR:** [sdlpal-git](https://aur.archlinux.org/packages/sdlpal-git/)
 
 ------
 
