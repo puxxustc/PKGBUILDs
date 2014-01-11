@@ -33,6 +33,10 @@ Arch Linux软件包生成脚本
 
 ![preview](http://gnome-look.org/CONTENT/content-pre1/162783-1.jpg)
 
+![preview](http://gnome-look.org/CONTENT/content-pre2/162783-2.png)
+
+![preview](http://gnome-look.org/CONTENT/content-pre3/162783-3.png)
+
 ------
 
 ### [ipbt](http://www.chiark.greenend.org.uk/~sgtatham/ipbt/)
