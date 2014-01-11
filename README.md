@@ -27,6 +27,14 @@ Arch Linux软件包生成脚本
 
 ------
 
+### [gtk-theme-vimix](http://gnome-look.org/content/show.php/Vimix?content=162783)
+
+一系列漂亮的扁平风格主题Vimix
+
+![preview](http://gnome-look.org/CONTENT/content-pre1/162783-1.jpg)
+
+------
+
 ### [ipbt](http://www.chiark.greenend.org.uk/~sgtatham/ipbt/)
 
 一个高级的ttyrec播放器，支持暂停回放。
