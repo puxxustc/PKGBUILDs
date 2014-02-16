@@ -105,12 +105,6 @@ Git version(not official repository)
 
 ------
 
-### [ustc-wlt](https://gitcafe.com/puxx/ustc-wlt) ###
-
-USTC网络通脚本
-
-------
-
 ### [xcursor-oxy-neon](http://gnome-look.org/content/show.php/Oxygen+Neon?content=137109) ###
 
 X11鼠标主题：Oxygen Neon
