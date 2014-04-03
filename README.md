@@ -39,6 +39,14 @@ Arch Linux软件包生成脚本
 
 ------
 
+### hostapd-8192cu ###
+
+用于在Linux下创建AP，适用于使用RTL8188CUS芯片的无线网卡
+
+**AUR:** [hostapd-8192cu](https://aur.archlinux.org/packages/hostapd-8192cu)
+
+------
+
 ### [ipbt](http://www.chiark.greenend.org.uk/~sgtatham/ipbt/)
 
 一个高级的ttyrec播放器，支持暂停回放。
