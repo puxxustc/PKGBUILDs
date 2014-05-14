@@ -73,13 +73,6 @@ Arch Linux软件包生成脚本
 
 ------
 
-### [retext-git](http://retext.sourceforge.net/) ###
-
-Markdown编辑器(Git version)
-
-**AUR:** [retext-git](https://aur.archlinux.org/packages/retext-git/)
-
-------
 
 ### [sdlpal-git](http://sdlpal.codeplex.com/) ###
 
