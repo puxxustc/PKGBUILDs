@@ -3,19 +3,19 @@
 
 pkgname=haroopad
 pkgver=0.12.2
-pkgrel=1
+pkgrel=2
 pkgdesc="A markdown enabled document processor"
 arch=('i686' 'x86_64')
 url="http://pad.haroopress.com/"
 license=('unknown')
 depends=('xdg-utils'
          'desktop-file-utils'
-         'hicolor-icon-theme'
          'gconf'
+         'nodejs'
+         'python'
          'alsa-lib'
          'gtk2'
-         'nss'
-         'libudev.so.0')
+         'nss')
 options=('!strip')
 install=${pkgname}.install
 changelog=changelog
@@ -41,6 +41,9 @@ build() {
 package() {
 	cd "${srcdir}"
 	cp -r "${srcdir}/usr" "${pkgdir}/usr"
+	sed -i -e 's/libudev.so.0/libudev.so.1/g' \
+	       -e 's/libc.so.1/libc.so.6/g' \
+	       "${pkgdir}/usr/share/haroopad/haroopad"
 	rm "${pkgdir}/usr/share/applications/mimeapps.list"
 	rm "${pkgdir}/usr/share/applications/Haroopad.desktop"
 	mkdir "${pkgdir}/usr/share/doc/haroopad/"
@@ -48,5 +51,5 @@ package() {
 	   "${pkgdir}/usr/share/doc/copyright" \
 	   "${pkgdir}/usr/share/doc/haroopad/"
 	install -Dm644 x-markdown.xml "${pkgdir}/usr/share/mime/packages/x-markdown.xml"
-	install -Dm644 Haroopad.desktop "${pkgdir}/usr/share/applications/Haroopad.desktop"
+	install -Dm644 haroopad.desktop "${pkgdir}/usr/share/applications/haroopad.desktop"
 }
