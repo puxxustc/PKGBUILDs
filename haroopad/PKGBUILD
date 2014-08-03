@@ -2,8 +2,8 @@
 # Contributor: Julien Nicoulaud <julien.nicoulaud@gmail.com>
 
 pkgname=haroopad
-pkgver=0.12.0
-pkgrel=2
+pkgver=0.12.2
+pkgrel=1
 pkgdesc="A markdown enabled document processor"
 arch=('i686' 'x86_64')
 url="http://pad.haroopress.com/"
@@ -22,15 +22,15 @@ changelog=changelog
 source=("https://bitbucket.org/rhiokim/haroopad-download/downloads/${pkgname}-v${pkgver}-i386.deb"
 	    "Haroopad.desktop"
 	    "x-markdown.xml")
-md5sums=('32514de919b148a4f97c2bab0cce6274'
-         'a49c9e82add99942182eb9b47c34f509'
-         '438bce645323cb0f0959c548c8c7daf0')
+sha256sums=('a71269cd9391d6e1f455b788c8d5c67cabaf9cc70ccf7fd824857172e7149eac'
+            '40f3c54dc55f5cee8a14e4c2a10a0aa100f8a5bcba2e74ee4210045be42d5fbd'
+            '8261b526007db35c8691b3b6bf79cf40639a5e53fa81f1dd1fa4ea1cf5c440dd')
 
 PKGEXT=.pkg.tar
 
 if [[ ${CARCH} = x86_64 ]]; then
 	source[0]="https://bitbucket.org/rhiokim/haroopad-download/downloads/${pkgname}-v${pkgver}_amd64.deb"
-	md5sums[0]='fc58e885835311e1017d7b802854757f'
+	sha256sums[0]='641a2a20c3991fd03cab750c833ffb89a0def96b065e9e320ec69e8b5ec07e7b'
 fi
 
 build() {
