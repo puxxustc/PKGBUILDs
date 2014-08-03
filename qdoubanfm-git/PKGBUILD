@@ -1,4 +1,4 @@
-# Maintainer:  Shaw <puxx@mail.ustc.edu.cn>
+# Maintainer:  Xiaoxiao Pu <i@patme.net>
 # Contributor: Shadow Ma ( i at shadow.ma )
 
 pkgname=qdoubanfm-git
@@ -14,7 +14,7 @@ depends=('qt5-multimedia'
          'gstreamer0.10-ugly-plugins')
 makedepends=('git')
 source=("git+https://github.com/zonyitoo/doubanfm-qt.git")
-md5sums=('SKIP')
+sha256sums=('SKIP')
 
 build() {
 	cd "${srcdir}/doubanfm-qt/"

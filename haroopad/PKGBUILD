@@ -20,10 +20,10 @@ options=('!strip')
 install=${pkgname}.install
 changelog=changelog
 source=("https://bitbucket.org/rhiokim/haroopad-download/downloads/${pkgname}-v${pkgver}-i386.deb"
-	    "Haroopad.desktop"
+	    "haroopad.desktop"
 	    "x-markdown.xml")
 sha256sums=('a71269cd9391d6e1f455b788c8d5c67cabaf9cc70ccf7fd824857172e7149eac'
-            '40f3c54dc55f5cee8a14e4c2a10a0aa100f8a5bcba2e74ee4210045be42d5fbd'
+            '28f569d520f75e74485f1a7d55baf7b038c65fc82b4efbbef9bc882b26ddc9ed'
             '8261b526007db35c8691b3b6bf79cf40639a5e53fa81f1dd1fa4ea1cf5c440dd')
 
 PKGEXT=.pkg.tar
@@ -50,4 +50,3 @@ package() {
 	install -Dm644 x-markdown.xml "${pkgdir}/usr/share/mime/packages/x-markdown.xml"
 	install -Dm644 Haroopad.desktop "${pkgdir}/usr/share/applications/Haroopad.desktop"
 }
-

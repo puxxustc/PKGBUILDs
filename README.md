@@ -31,12 +31,6 @@ Arch Linux软件包生成脚本
 
 一系列漂亮的扁平风格主题Vimix
 
-![preview](http://gnome-look.org/CONTENT/content-pre1/162783-1.jpg)
-
-![preview](http://gnome-look.org/CONTENT/content-pre2/162783-2.png)
-
-![preview](http://gnome-look.org/CONTENT/content-pre3/162783-3.png)
-
 ------
 
 ### hostapd-8192cu ###
@@ -47,32 +41,13 @@ Arch Linux软件包生成脚本
 
 ------
 
-### [ipbt](http://www.chiark.greenend.org.uk/~sgtatham/ipbt/)
-
-一个高级的ttyrec播放器，支持暂停回放。
-
-**AUR：** [ipbt](https://aur.archlinux.org/packages/ipbt/)
-
-------
-
-### [ogg2mp3](http://gitorious.org/ogg2mp3/pages/Home/)
-
-一个可以将ogg转换为mp3的Perl脚本
-
-**AUR：** [ogg2mp3](https://aur.archlinux.org/packages/ogg2mp3/)
-
-------
-
-
 ### [qdoubanfm-git](https://gitcafe.com/zonyitoo/doubanfm-qt) ###
 
 使用Qt5编写的DoubanFM客户端。
 
 **AUR:** [qdoubanfm-git](https://aur.archlinux.org/packages/qdoubanfm-git/)
 
-
 ------
-
 
 ### [sdlpal-git](http://sdlpal.codeplex.com/) ###
 
@@ -95,14 +70,6 @@ Arch Linux软件包生成脚本
 一个录制、播放终端的小工具，将终端的操作、显示结果保存成记录文件并可重复播放。
 
 **AUR:** [ttyrec](https://aur.archlinux.org/packages/ttyrec/)
-
-------
-
-### [ttyrec-git](http://git.kitenet.net/?p=ttyrec.git) ###
-
-Git version(not official repository)
-
-**AUR:** [ttyrec-git](https://aur.archlinux.org/packages/ttyrec-git/)
 
 ------
 

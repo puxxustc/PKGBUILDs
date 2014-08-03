@@ -1,4 +1,4 @@
-# Maintainer:  Shaw <puxx@mail.ustc.edu.cn>
+# Maintainer:  Xiaoxiao Pu <i@patme.net>
 
 pkgname=bochs-dbg
 pkgver=2.6.2
@@ -11,7 +11,7 @@ depends=('gtk2' 'libxpm')
 provides=('bochs')
 conflicts=('bochs')
 source=("http://downloads.sourceforge.net/sourceforge/bochs/bochs-${pkgver}.tar.gz")
-md5sums=('82ecaff9826d4f29fa46f3062e2957b8')
+sha256sums=('d973b72b79a5de96ebe9337b8421f19dcd775dce16ed25a0232fa6d543a54b10')
 
 build() {
 	cd "${srcdir}/bochs-${pkgver}"

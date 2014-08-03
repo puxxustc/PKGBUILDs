@@ -1,4 +1,4 @@
-# Maintainer:  Shaw <puxx@mail.ustc.edu.cn>
+# Maintainer:  Xiaoxiao Pu <i@patme.net>
 
 pkgname=gtk-theme-vimix
 pkgver=3.0
@@ -9,10 +9,9 @@ url="http://gnome-look.org/content/show.php/Vimix?content=162783"
 license=('GPL')
 depends=('gtk-engine-murrine' 'gtk-engine-unico')
 source=(http://gnome-look.org/CONTENT/content-files/162783-Vimix%20Flat%20Themes.tar.gz)
-md5sums=('86870f55ae7ea96e2034e49b00a287a1')
+sha256sums=('0f08edd5b2ba1b85e01f1cbe53f065f38662202f383e288457b797738c2d2262')
 
 package() {
 	cd "${srcdir}/"
 	find Vimix{,*} -type f -exec install -Dm644 '{}' "${pkgdir}/usr/share/themes/{}" \;
 }
-
