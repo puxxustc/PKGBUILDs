@@ -11,7 +11,7 @@
 
 用于创建软 AP 的 Bash 脚本
 
-**AUR:** [create_ap](https://aur.archlinux.org/packages/create_ap/)
+**AUR: ** [create_ap](https://aur.archlinux.org/packages/create_ap/)
 
 ------
 
@@ -25,7 +25,7 @@
 
 用于在 Linux 下创建 AP，适用于使用 RTL8188CUS 芯片的无线网卡
 
-**AUR:** [hostapd-8192cu](https://aur.archlinux.org/packages/hostapd-8192cu)
+**AUR: ** [hostapd-8192cu](https://aur.archlinux.org/packages/hostapd-8192cu)
 
 ------
 
@@ -33,7 +33,7 @@
 
 使用 Qt5 编写的 DoubanFM 客户端
 
-**AUR:** [qdoubanfm-git](https://aur.archlinux.org/packages/qdoubanfm-git/)
+**AUR: ** [qdoubanfm-git](https://aur.archlinux.org/packages/qdoubanfm-git/)
 
 ------
 
@@ -41,7 +41,7 @@
 
 基于 SDL 重写的仙剑奇侠传一
 
-**AUR:** [sdlpal-git](https://aur.archlinux.org/packages/sdlpal-git/)
+**AUR: ** [sdlpal-git](https://aur.archlinux.org/packages/sdlpal-git/)
 
 ------
 
@@ -49,7 +49,7 @@
 
 一个用于将 ttyrec 的记录文件转换为 GIF 的小工具
 
-**AUR:** [ttygif](https://aur.archlinux.org/packages/ttygif/)
+**AUR: ** [ttygif](https://aur.archlinux.org/packages/ttygif/)
 
 ------
 
@@ -57,4 +57,4 @@
 
 一个录制、播放终端的小工具，将终端的操作、显示结果保存成记录文件并可重复播放
 
-**AUR:** [ttyrec](https://aur.archlinux.org/packages/ttyrec/)
+**AUR: ** [ttyrec](https://aur.archlinux.org/packages/ttyrec/)
