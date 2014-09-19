@@ -1,7 +1,7 @@
 # Maintainer:  Xiaoxiao Pu <i@xiaoxiao.im>
 
 pkgname=create_ap
-pkgver=git~20140911
+pkgver=git~20140919
 pkgrel=1
 pkgdesc="A shell script to create a NATed/Bridged Software Access Point"
 arch=('any')
@@ -11,9 +11,9 @@ depends=('bash' 'hostapd' 'iproute2' 'iw' 'dnsmasq'
          'iptables' 'bridge-utils')
 optdepends=('haveged: boost low entropy')
 install=create_ap.install
-_commit=488f84e14fd4115b1a9a77f3f190c9e75203d2a5
+_commit=5b2d7984db9a17213c387addf7a3675ea8c97b46
 source=("https://github.com/oblique/create_ap/archive/${_commit}.tar.gz")
-sha256sums=('377d933d9bc6cfc4cd64e6c31905645579510d5f012956f90448d9a814a49555')
+sha256sums=('2fd552c6844fa10f6c5e0f66deb9819e6de207aab0a70586c935ee07b3a4ea9d')
 
 build() {
 	cd "${srcdir}/create_ap-${_commit}/"
