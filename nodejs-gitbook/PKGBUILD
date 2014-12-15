@@ -8,6 +8,7 @@ arch=('any')
 url="http://www.gitbook.io/"
 license=('Apache')
 depends=('nodejs')
+optdepends=('calibre: ebook support')
 source=("https://registry.npmjs.org/gitbook/-/gitbook-${pkgver}.tgz")
 sha256sums=('e829f53fc6e34896e50c7ef130b8123f7abbe45fc17cb993fc052512934eb26d')
 
