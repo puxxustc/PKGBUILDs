@@ -1,12 +1,6 @@
 # Arch Linux PKGBUILDs #
 
 
-### [bochs-dbg](http://bochs.sourceforge.net/) ###
-
-启用了内建调试功能的 bochs，可虚拟 32 位 x86 计算机
-
-------
-
 ### [create_ap](https://github.com/oblique/create_ap) ###
 
 用于创建软 AP 的 Bash 脚本
