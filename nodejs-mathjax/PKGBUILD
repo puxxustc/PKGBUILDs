@@ -8,9 +8,13 @@ arch=('any')
 url="https://github.com/mathjax/MathJax-node"
 license=('Apache')
 depends=('nodejs')
-_commit=abda209377c8f3dae1d8f183f9075311806912d2
-source=("https://github.com/mathjax/MathJax-node/archive/${_commit}.tar.gz")
-sha256sums=('bdd8da84b870b84fd70be2d4550d01d1c8cd8a01f21a6e764d85834235337819')
+source=("git+https://github.com/mathjax/MathJax-node.git")
+sha256sums=('SKIP')
+
+pkgver() {
+	cd "${srcdir}/sipvpn"
+	printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
 
 package() {
 	npm install --python=/usr/bin/python2 -g --user root --prefix "${pkgdir}/usr" "${srcdir}/MathJax-node-${_commit}"
